@@ -12,7 +12,7 @@
 
 <body>
     <div class="container">
-        <header class="header">
+        <header class="heading">
             <h1>Cash Register Manager</h1>
             <p>Enter the bill amount and cash given by the customer and
                 know the minimum number of notes to return </p>
@@ -27,14 +27,11 @@
                 <li><label for="cash-given">Cash Given</label></li>
                 <li><input id="cash-given" type="number" /></li>
                 <li><button class="check-btn">Check</button></li>
-                <li>
-                    <p class="error-message"></p>
-                </li>
             </ul>
-
         </div>
+        <p class="error-message"></p>
         <div class="change-table">
-            <table class="change-table">
+            <table id="change-table">
                 <caption>Return Change</caption>
                 <tr>
                     <th>No of notes</th>

@@ -4,7 +4,7 @@
   padding: 0;
   font-family: "Fredoka", sans-serif;
 }
-.header{
+.heading{
     background-color: black;
     color: whitesmoke;
     border-bottom-left-radius: 1rem;
@@ -38,7 +38,7 @@ input{
     border: 1px solid black;
     border-bottom: 5px solid black;
     padding: 0.5rem;
-    margin: 1rem;
+    margin: 0.5rem;
     font-size: 1rem;
     font-weight: 500;
     
@@ -46,6 +46,8 @@ input{
 .list{
     list-style: none;
     text-align: center;
+    /* padding: 2rem;
+    margin: 1rem; */
 }
 button{
   width: 5rem;
@@ -57,4 +59,28 @@ button{
   border-radius: 0.5rem;
   border: none;
   cursor: pointer;
+}
+
+table{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-bottom: 4px solid black;
+}
+td,th{
+  border: 1px solid black;
+  padding: 8px;
+  color: black;
+}
+caption{
+    padding-top: 1rem;
+    padding-bottom: 00.5rem;
+    font-size: larger;
+    font-weight: 600;
+}
+p{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 500;
 }
