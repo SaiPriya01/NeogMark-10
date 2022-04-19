@@ -16,6 +16,7 @@ nextBtn.addEventListener("click", function validateBillAmt() {
         displayStyling();
     } else {
         cashGivenCal.style.display = 'block';
+        showMessage(' ');
 
     }
 });
